@@ -227,4 +227,4 @@ library(ggplot2)
 ggplot(oring.data,aes(x=Temperature,y=Probability, group=1))+geom_line()+geom_point() + labs(x="Temperature", y="Probability", title = "O-ring damage Model-Estimated Probabilities based on Temperature")
 ```
 
-**_(c) From the observational study, the probabilities graph clearly suggest O-ring will be damage at lower temperatures. Study suggests, O-ring is critical part that can cause space shuttle to explode at low temperatures. Shuttle launch decision should be erred on the side of caution if temperatures are lower than $56^\circ F$._**
+**_(c) From the observational study, the probabilities graph clearly suggest O-ring will be damaged at lower temperatures. Study suggests, O-ring is critical part that can cause space shuttle to explode at low temperatures. Shuttle launch decision should be erred on the side of caution if temperatures are lower than $56^\circ F$._**
